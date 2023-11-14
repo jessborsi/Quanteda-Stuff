@@ -1,0 +1,14 @@
+{
+  "hash": "49922d4be62381b77ccfbcee6d5ececa",
+  "result": {
+    "markdown": "---\ntitle: \"Home\"\n---\n\n\nThis is the homepage of a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n## This is a level 2 heading\n\nThis is text. Below is some R code. \n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n## Run the analysis\n\nWe can run our analysis right in this document.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n\ndata <- read_csv(\"data/ideology_foodstamps.csv\")\n```\n:::\n\nWe just loaded some data we created last week. Now we can do something with it. \n\n\n::: {.cell}\n\n```{.r .cell-code}\nglimpse(data)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nRows: 835\nColumns: 7\n$ date_utc  <date> 2014-03-01, 2014-02-28, 2014-02-28, 2014-02-25, 2014-02-25,…\n$ timestamp <dbl> 1393702803, 1393556553, 1393546250, 1393364273, 1393347234, …\n$ title     <chr> \"Obama Favors Food Stamps Over Military\", \"BOOM: Louisiana S…\n$ text      <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, \"I live in NYS, last…\n$ subreddit <chr> \"Conservative\", \"Conservative\", \"Conservative\", \"Conservativ…\n$ comments  <dbl> 0, 2, 8, 0, 0, 1, 0, 0, 3, 3, 0, 0, 5, 1, 28, 1, 11, 0, 0, 5…\n$ url       <chr> \"https://www.reddit.com/r/Conservative/comments/1zabbc/obama…\n```\n:::\n:::\n\n\n## How do I use R, Quarto, and Github pages to publish a site?\n\nQuarto will turn your R content into HTML, which you can in turn publish with Github Pages.\n\n\n```{mermaid}\nflowchart TD\n    A[Start: Develop content in R] -->|Create and analyze data| B[Use Quarto to convert R Markdown to HTML]\n    B --> C{Check if ready to publish}\n    C -->|Yes| D[Push content to GitHub repository]\n    C -->|No| A\n    D --> E[Configure GitHub Pages in the repository settings]\n    E --> F[Publish website via GitHub Pages]\n    F --> G[Website Live]\n\n```\n\n\n## How do I use Quarto for reproducible research?\n\nJust like making a website, except this time we start by conducting the research. \n\n\n```{mermaid}\nflowchart TD\n    A[Start: Research Question] -->|Data Collection| B[Data Analysis in R]\n    B -->|Document with R Markdown| C[Reproducible Analysis in R]\n    C --> D[Convert R Markdown to HTML using Quarto]\n    D --> E{Check for Reproducibility and Accuracy}\n    E -->|Yes| F[Version Control with GitHub]\n    E -->|Revise| C\n    F -->|Push to Repository| G[Configure GitHub Pages for Publishing]\n    G --> H[Publish Reproducible Research Website via GitHub Pages]\n    H --> I[Website Live: Share Research]\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

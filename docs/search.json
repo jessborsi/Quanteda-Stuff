@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "rr_introduction.html",
+    "href": "rr_introduction.html",
+    "title": "Reproducible Research",
+    "section": "",
+    "text": "we’re already comfortable with R\nwhy not?"
+  },
+  {
+    "objectID": "rr_introduction.html#why-quarto",
+    "href": "rr_introduction.html#why-quarto",
+    "title": "Reproducible Research",
+    "section": "",
+    "text": "we’re already comfortable with R\nwhy not?"
+  },
+  {
+    "objectID": "rr_introduction.html#why-reproducible-research",
+    "href": "rr_introduction.html#why-reproducible-research",
+    "title": "Reproducible Research",
+    "section": "Why reproducible research?",
+    "text": "Why reproducible research?\nA possibly smart person probably said once:\n\nthis is a tech comm seminar –&gt; documentation is a central interest of TC –&gt; reproducible research is functionally about documentation –&gt; we should document our work\n\nAlso, if you can do this you can also create and host your own professional website for free."
+  },
+  {
+    "objectID": "rr_introduction.html#why-else-use-quarto-for-this-project",
+    "href": "rr_introduction.html#why-else-use-quarto-for-this-project",
+    "title": "Reproducible Research",
+    "section": "Why else use Quarto for this project?",
+    "text": "Why else use Quarto for this project?\nWe can use computational tools not only to study texts but to generate them (and in so doing study tools that generate texts)1\nWe can also engage with articles we read right next to our analysis, which is one way of satisfying Graham and Hopkins call to explain processes and parameters (Graham and Hopkins 2022)."
+  },
+  {
+    "objectID": "rr_introduction.html#resources-quarto-for-reproducible-research",
+    "href": "rr_introduction.html#resources-quarto-for-reproducible-research",
+    "title": "Reproducible Research",
+    "section": "Resources: Quarto for Reproducible Research",
+    "text": "Resources: Quarto for Reproducible Research\n\nReproducibility, Quarto, & Co\nWhat can I do with Quarto? An introduction to reproducible research and reports\nReproducible research workflow (Quarto project template & description)"
+  },
+  {
+    "objectID": "rr_introduction.html#footnotes",
+    "href": "rr_introduction.html#footnotes",
+    "title": "Reproducible Research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is convoluted both in syntax and substance, but Quarto gives me footnotes to clarify. oooh aahh↩︎"
+  },
+  {
+    "objectID": "cr_data-revealjs.html#why-quarto",
+    "href": "cr_data-revealjs.html#why-quarto",
+    "title": "Reproducible Research",
+    "section": "Why Quarto?",
+    "text": "Why Quarto?\n\nwe’re already comfortable with R\nwhy not?"
+  },
+  {
+    "objectID": "cr_data-revealjs.html#why-reproducible-research",
+    "href": "cr_data-revealjs.html#why-reproducible-research",
+    "title": "Reproducible Research",
+    "section": "Why reproducible research?",
+    "text": "Why reproducible research?\nA possibly smart person probably said once:\n\nthis is a tech comm seminar –&gt; documentation is a central interest of TC –&gt; reproducible research is functionally about documentation –&gt; we should document our work\n\nAlso, if you can do this you can also create and host your own professional website for free."
+  },
+  {
+    "objectID": "cr_data-revealjs.html#why-else-use-quarto-for-this-project",
+    "href": "cr_data-revealjs.html#why-else-use-quarto-for-this-project",
+    "title": "Reproducible Research",
+    "section": "Why else use Quarto for this project?",
+    "text": "Why else use Quarto for this project?\nWe can use computational tools not only to study texts but to generate them (and in so doing study tools that generate texts)1\nWe can also engage with articles we read right next to our analysis, which is one way of satisfying Graham and Hopkins call to explain processes and parameters (Graham and Hopkins 2022).\nThis is convoluted both in syntax and substance, but Quarto gives me footnotes to clarify. oooh aahh"
+  },
+  {
+    "objectID": "cr_data-revealjs.html#resources-quarto-for-reproducible-research",
+    "href": "cr_data-revealjs.html#resources-quarto-for-reproducible-research",
+    "title": "Reproducible Research",
+    "section": "Resources: Quarto for Reproducible Research",
+    "text": "Resources: Quarto for Reproducible Research\n\nReproducibility, Quarto, & Co\nWhat can I do with Quarto? An introduction to reproducible research and reports\nReproducible research workflow (Quarto project template & description)\n\n\n\n\n\n\n\nGraham, S. S., and H. R. Hopkins. 2022. “AI for Social Justice: New Methodological Horizons in Technical Communication.” Technical Communication Quarterly 31 (1): 89–102. https://doi.org/10.1080/10572252.2021.1955151."
+  },
+  {
+    "objectID": "discussion.html",
+    "href": "discussion.html",
+    "title": "Discussion",
+    "section": "",
+    "text": "Here, we offer a brilliant discussion of our analysis"
+  },
+  {
+    "objectID": "analysis_1.html",
+    "href": "analysis_1.html",
+    "title": "Analysis, Phase One",
+    "section": "",
+    "text": "We could analyze the heck out of SO MUCH DATA"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "data_collection.html",
+    "href": "data_collection.html",
+    "title": "Collecting the data",
+    "section": "",
+    "text": "We could collect SO MUCH DATA"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is the homepage of a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#this-is-a-level-2-heading",
+    "href": "index.html#this-is-a-level-2-heading",
+    "title": "Home",
+    "section": "This is a level 2 heading",
+    "text": "This is a level 2 heading\nThis is text. Below is some R code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#run-the-analysis",
+    "href": "index.html#run-the-analysis",
+    "title": "Home",
+    "section": "Run the analysis",
+    "text": "Run the analysis\nWe can run our analysis right in this document.\n\nlibrary(tidyverse)\n\ndata &lt;- read_csv(\"data/ideology_foodstamps.csv\")\n\nWe just loaded some data we created last week. Now we can do something with it.\n\nglimpse(data)\n\nRows: 835\nColumns: 7\n$ date_utc  &lt;date&gt; 2014-03-01, 2014-02-28, 2014-02-28, 2014-02-25, 2014-02-25,…\n$ timestamp &lt;dbl&gt; 1393702803, 1393556553, 1393546250, 1393364273, 1393347234, …\n$ title     &lt;chr&gt; \"Obama Favors Food Stamps Over Military\", \"BOOM: Louisiana S…\n$ text      &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, \"I live in NYS, last…\n$ subreddit &lt;chr&gt; \"Conservative\", \"Conservative\", \"Conservative\", \"Conservativ…\n$ comments  &lt;dbl&gt; 0, 2, 8, 0, 0, 1, 0, 0, 3, 3, 0, 0, 5, 1, 28, 1, 11, 0, 0, 5…\n$ url       &lt;chr&gt; \"https://www.reddit.com/r/Conservative/comments/1zabbc/obama…"
+  },
+  {
+    "objectID": "index.html#how-do-i-use-r-quarto-and-github-pages-to-publish-a-site",
+    "href": "index.html#how-do-i-use-r-quarto-and-github-pages-to-publish-a-site",
+    "title": "Home",
+    "section": "How do I use R, Quarto, and Github pages to publish a site?",
+    "text": "How do I use R, Quarto, and Github pages to publish a site?\nQuarto will turn your R content into HTML, which you can in turn publish with Github Pages.\n\n\n\n\nflowchart TD\n    A[Start: Develop content in R] --&gt;|Create and analyze data| B[Use Quarto to convert R Markdown to HTML]\n    B --&gt; C{Check if ready to publish}\n    C --&gt;|Yes| D[Push content to GitHub repository]\n    C --&gt;|No| A\n    D --&gt; E[Configure GitHub Pages in the repository settings]\n    E --&gt; F[Publish website via GitHub Pages]\n    F --&gt; G[Website Live]"
+  },
+  {
+    "objectID": "index.html#how-do-i-use-quarto-for-reproducible-research",
+    "href": "index.html#how-do-i-use-quarto-for-reproducible-research",
+    "title": "Home",
+    "section": "How do I use Quarto for reproducible research?",
+    "text": "How do I use Quarto for reproducible research?\nJust like making a website, except this time we start by conducting the research.\n\n\n\n\nflowchart TD\n    A[Start: Research Question] --&gt;|Data Collection| B[Data Analysis in R]\n    B --&gt;|Document with R Markdown| C[Reproducible Analysis in R]\n    C --&gt; D[Convert R Markdown to HTML using Quarto]\n    D --&gt; E{Check for Reproducibility and Accuracy}\n    E --&gt;|Yes| F[Version Control with GitHub]\n    E --&gt;|Revise| C\n    F --&gt;|Push to Repository| G[Configure GitHub Pages for Publishing]\n    G --&gt; H[Publish Reproducible Research Website via GitHub Pages]\n    H --&gt; I[Website Live: Share Research]"
+  }
+]

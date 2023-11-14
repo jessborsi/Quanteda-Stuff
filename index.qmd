@@ -1,0 +1,65 @@
+---
+title: "Home"
+---
+
+This is the homepage of a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## This is a level 2 heading
+
+This is text. Below is some R code. 
+
+```{r}
+1 + 1
+```
+
+## Run the analysis
+
+We can run our analysis right in this document.
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+
+data <- read_csv("data/ideology_foodstamps.csv")
+```
+We just loaded some data we created last week. Now we can do something with it. 
+
+```{r}
+glimpse(data)
+```
+
+## How do I use R, Quarto, and Github pages to publish a site?
+
+Quarto will turn your R content into HTML, which you can in turn publish with Github Pages.
+
+```{mermaid}
+flowchart TD
+    A[Start: Develop content in R] -->|Create and analyze data| B[Use Quarto to convert R Markdown to HTML]
+    B --> C{Check if ready to publish}
+    C -->|Yes| D[Push content to GitHub repository]
+    C -->|No| A
+    D --> E[Configure GitHub Pages in the repository settings]
+    E --> F[Publish website via GitHub Pages]
+    F --> G[Website Live]
+
+```
+
+## How do I use Quarto for reproducible research?
+
+Just like making a website, except this time we start by conducting the research. 
+
+```{mermaid}
+flowchart TD
+    A[Start: Research Question] -->|Data Collection| B[Data Analysis in R]
+    B -->|Document with R Markdown| C[Reproducible Analysis in R]
+    C --> D[Convert R Markdown to HTML using Quarto]
+    D --> E{Check for Reproducibility and Accuracy}
+    E -->|Yes| F[Version Control with GitHub]
+    E -->|Revise| C
+    F -->|Push to Repository| G[Configure GitHub Pages for Publishing]
+    G --> H[Publish Reproducible Research Website via GitHub Pages]
+    H --> I[Website Live: Share Research]
+```

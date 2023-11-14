@@ -1,0 +1,38 @@
+---
+title: Reproducible Research
+bibliography: references.bib
+format:
+  html: default
+  revealjs:
+    output-file: cr_data-revealjs.html 
+---
+
+## Why Quarto?
+
+* we're already comfortable with R
+* why not?
+
+## Why reproducible research?
+
+A possibly smart person probably said once:
+
+> *this is a tech comm seminar --> documentation is a central interest of TC --> reproducible research is functionally about documentation --> we should document our work*
+
+Also, if you can do this you can also create and host your own professional website for free.  
+
+## Why else use Quarto for this project?
+
+We can use computational tools not only to study texts but to generate them (and in so doing study tools that generate texts)^[This is convoluted both in syntax and substance, but Quarto gives me ***footnotes*** to clarify. *oooh aahh*]
+
+We can also engage with articles we read right next to our analysis, which is one way of satisfying Graham and Hopkins call to explain processes and parameters [@graham2022].
+
+
+
+
+
+## Resources: Quarto for Reproducible Research
+
+* [Reproducibility, Quarto, & Co](https://andreashandel.github.io/MADAcourse/Tools_Reproducibility.html)
+* [What can I do with Quarto? An introduction to reproducible research and reports](https://nrennie.rbind.io/talks/2022-october-oxford-r-user-group/)
+* [Reproducible research workflow (Quarto project template & description)](https://github.com/AaronGullickson/research-template#a-reproducible-research-workflow)
+

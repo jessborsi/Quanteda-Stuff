@@ -1,0 +1,49 @@
+## This file (quarto.yml) provides website configuration options and defualts for pages of the site. ##
+
+project:
+  type: website
+  output-dir: docs # this line dictates that rendered website files will be put in a folder called "docs"
+
+execute:
+  freeze: auto # tells Quarto to only rerender the R chunks if the source file changes
+  warning: false # tells Quarto not to print warnings when rendering
+
+## this section dictates site options ##
+website:
+  title: "My brilliant project"
+  page-navigation: true # when true, adds a next page / previous page option to the bottom of each page
+  navbar:
+    tools:
+      - icon: github
+        url: https://github.com/danieljcard1/cr-project # url for site is https://github.com + your github username + / + R project name 
+        aria-label: Github
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd # if only the file is listed, the navigation text can be specified in the page or it will default to the file name.
+  sidebar: 
+    style: "docked"
+    pinned: true
+    contents:
+      - rr_introduction.qmd
+      - data_collection.qmd
+      - analysis_1.qmd
+      - discussion.qmd
+      
+  page-footer: 
+    left: "Copyright 2023, Dan Card" 
+
+
+## this section specifies html options and options for other formats if desired
+format:
+  html:
+    theme: 
+      light: flatly # see theme options at https://quarto.org/docs/output-formats/html-themes.html#overview 
+      dark: darkly 
+    css: styles.css
+    toc: true
+    
+  
+
+
+
